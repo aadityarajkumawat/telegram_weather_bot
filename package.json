@@ -1,0 +1,23 @@
+{
+  "name": "tempra_bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "node dist/index.js",
+    "dev": "nodemon dist/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.61.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/node-cron": "^3.0.7",
+    "@types/node-telegram-bot-api": "^0.57.6",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  }
+}
